@@ -32,12 +32,15 @@ main{
     position: relative;
 }
 
-#login{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
     background-color: white;
     width: 250px;
     height: 500px;
